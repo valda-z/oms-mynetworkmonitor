@@ -17,7 +17,7 @@ uri = ""
 datadir = "pingdata/"
 
 try:
-    response = pyping.ping('speedtest.net')
+    response = pyping.ping('speed1.jmnet.cz')
     if response.ret_code == 0:
         ping_ok = True
         ping_rtt = (float(response.avg_rtt) / 2.0)

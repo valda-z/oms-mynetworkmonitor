@@ -21,7 +21,7 @@ speed_up = 0
 
 try:
     st = pyspeedtest.SpeedTest()
-    st.host = 'if0-0.speedtest.lon.vorboss.net'
+    st.host = 'speed1.jmnet.cz'
     st.runs = 1
     speed_ping = st.ping()
     speed_down = st.download()
